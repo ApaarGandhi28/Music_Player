@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e71a24b13b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="features-container">
+            <div class="logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aqualung_music_player_drop_icon.svg/1024px-Aqualung_music_player_drop_icon.svg.png"
+                    alt="img" / download>
+            </div>
+            <div class="my-songs features-tab selected">
+                <div class="my-songs-text">My Songs</div>
+            </div>
+            <div class="my-playlists features-tab">
+                <div class="my-playlists-text">My Playlists</div>
+            </div>
+            <div class="my-liked-songs features-tab">
+                <div class="my-liked-songs-text">Liked Songs</div>
+            </div>
+        </div>
+        <div class="audio-container">
+            <div class="music-player-container">
+                <div class="border-box">
+                    <div class="music-player-text">Music Player</div>
+                </div>
+            </div>
+            <div class="gif-container">
+                <img src="https://i.gifer.com/Nt6v.gif" alt="img" />
+            </div>
+            <div class="playing-song-container">
+                <div class="playing-song">
+                    <div class="current-song-details">
+                        <div class="play-icon current-play fa fa-play" style="font-size:30px;color:rgb(36, 7, 7)">
+
+                        </div>
+                        <div class="song-details">
+                            <div class="song-name song-details-name">
+                                Yeh kya Baat hai
+                            </div>
+                            <div class="singer-name">
+                                Apaar
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song-duration">
+                        05:00
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-songs-container">
+                <div class="my-songs-text">
+                    My Songs
+                </div>
+            </div>
+    
+           <div class="avail-songs-container">
+               <div class="avail-songs">
+               </div>
+           </div>
+
+            <div class="scrollers-container">
+                <div class="icons-container">
+                    <div class="fa fa-step-backward" style="font-size:25px"></div>
+                    <div class="fa fa-play" style="font-size:25px"></div>
+                    <div class="fa fa-step-forward" style="font-size:25px"></div>
+                  
+                </div>
+                <div class="song-scroller-container">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="100" value="0" class="slider-1"  id="myRange-1">
+                      </div>
+                </div>
+                <div class="volume-scroller-container">
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="100" value="50" class="slider-2"  id="myRange-2">
+                      </div>
+                </div>
+                <div class="icons-container">
+                    <div class="fa fa-volume-up" style="font-size:25px"></div>
+                    <div class="fas fa-volume-mute" style="font-size:25px"></div>
+                  
+                </div>
+            </div>
+            <audio src=""></audio>
+        </div>
+        <div class="features-2-container">
+            <div class="main-tab selected">
+                <div class="main-tab-text">My Songs</div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
